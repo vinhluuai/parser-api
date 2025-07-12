@@ -27,8 +27,9 @@ custom:
   webpack:
     webpackConfig: ./webpack.config.js
     includeModules: true
-    packager: 'yarn' # Packager that will be used to package your external modules
-    serverless-offline:
+    packager: 'yarn'
+
+  serverless-offline:
     host: 0.0.0.0
     httpPort: 10000
 
