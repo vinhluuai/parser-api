@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: mercury-parser-api
+    env: node
+    plan: free
+    buildCommand: yarn install
+    startCommand: node src/handler.js
+    runtime: node
