@@ -23,9 +23,10 @@
     "test:html": "serverless invoke local --function parseHtml --path fixtures/html.json"
   },
   "dependencies": {
-    "@postlight/parser": "^2.2.2",
-    "@types/aws-lambda": "^8.10.15"
-  },
+  "@postlight/parser": "^2.2.2",
+  "@types/aws-lambda": "^8.10.15",
+  "express": "^4.18.2"
+},
   "devDependencies": {
     "@babel/core": "7.3.3",
     "@babel/preset-env": "7.3.1",
